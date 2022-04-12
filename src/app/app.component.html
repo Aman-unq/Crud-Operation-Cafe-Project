@@ -1,0 +1,46 @@
+<!--Main Navigation-->
+<header class="intro-header">
+
+  <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" routerLink="" style="color: red;"><strong>Cafe</strong></a>
+          <a routerLink="add" class="nav-link"><strong style="color: white;">Add Cafe</strong></a>
+          <a routerLink="" class="nav-link"><strong strong style="color: red;">List Cafe</strong></a>
+          <a routerLink="update" class="nav-link"><strong style="color: white;">Update Cafe</strong></a>
+          <a routerLink="register" class="nav-link"><strong style="color: red;">Register Cafe</strong></a>
+          <a routerLink="login" class="nav-link"><strong style="color: white;">Login Cafe</strong></a>
+          
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!--Intro Section-->
+  <section class="view intro-2 rgba-gradient">
+
+    <div class="">
+      <div class="container flex-center">
+        <div class="row flex-center pt-5 mt-3">
+          <div class="col-md-6 text-center text-md-left margins">
+            <div class="white-text">
+              <i class="fab left right" aria-hidden="true"></i>
+              <i class="fab faapple left" aria-hidden="true"></i>
+              <i class="fab fawindows" aria-hidden="true"></i>
+              <div class="container">
+                <router-outlet></router-outlet>
+                <footer><p>Register Cafe with us</p></footer>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+</header>

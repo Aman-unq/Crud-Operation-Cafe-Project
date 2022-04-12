@@ -1,0 +1,23 @@
+<h2 style="color: white;">Cafe List</h2>
+<table class="table table-hover table-dark">
+  <thead>
+    <tr class="table-active">
+      <th scope="col">#</th>
+      <th scope="col">Name</th>
+      <th scope="col">Address</th>
+      <th scope="col">Email</th>
+      <th scope="col">Operations</th>
+  
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of collection">
+      <td>{{item.id}}</td>
+      <td>{{item.name}}</td>
+      <td>{{item.address}}</td>
+      <td>{{item.email}}</td>
+      <td><i (click)="deleteCafe(item.id)" class="fa fa-trash pe-auto mouse" style="font-size:20px;color:red;"></i>&nbsp;&nbsp;&nbsp; <a routerLink="/update/{{item.id}}"><i class="fa fa-edit pe-auto mouse" style="font-size:18px; color: white; margin-top:10px"></i>
+      </a></td>
+    </tr>
+  </tbody>
+</table>
