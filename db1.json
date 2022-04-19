@@ -1,0 +1,73 @@
+{
+  "Cafe": [
+    {
+      "name": "twertertet",
+      "email": "ewtewtet",
+      "address": "wetwetwe",
+      "id": 5
+    },
+    {
+      "name": "hhh",
+      "email": "aaa@gmail.com",
+      "Address": "hhhIndore",
+      "id": 7
+    },
+    {
+      "name": "",
+      "email": "",
+      "address": "",
+      "id": 8
+    },
+    {
+      "name": "7iu7i7i7i",
+      "email": "i76i76i76",
+      "address": "76i76i67i",
+      "id": 9
+    },
+    {
+      "name": "ryeryer",
+      "email": "yeyeryery",
+      "address": "yyyreyery",
+      "id": 10
+    }
+  ],
+  "users": [
+    {
+      "name": "tttttt",
+      "email": "tttttrt",
+      "password": "tttttt",
+      "id": 1
+    },
+    {
+      "name": "kkkkk",
+      "email": "kkkk",
+      "password": "k23423434",
+      "id": 2
+    },
+    {
+      "name": "fjfjf",
+      "email": "fjttfjtfj",
+      "password": "ftjfjj",
+      "id": 3
+    },
+    {
+      "name": "y54y5ry",
+      "email": "54ry54ryy",
+      "password": "y45y45y54",
+      "id": 4
+    },
+    {
+      "name": "aaaaaaa",
+      "email": "aaaaa",
+      "password": "aaaaaaaaa",
+      "id": 5
+    },
+    {
+      "name": "aa",
+      "email": "aaa@gmail.com",
+      "Address": "Indore",
+      "id": 6
+    }
+  ],
+  "login": []
+}
